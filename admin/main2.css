@@ -1,0 +1,50 @@
+table{
+  border: 3px solid gray;
+    background-color: lightgray;
+    width: 468px;
+    height: 370px;
+}
+#SV{
+	width: 111px;
+    height: 34px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: darkcyan;
+    color: blanchedalmond;
+    font-size: 18px;
+    margin-left: -31px;
+}
+#des{
+	margin-left: -13px;
+    width: 212px;
+    height: 127px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: beige;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+#title{
+	    margin-left: -16px;
+    border: 0px;
+    border-radius: 5px;
+    height: 27px;
+    background-color: beige;
+    margin-bottom: 11px
+}
+#price{
+	    margin-left: -16px;
+    border: 0px;
+    border-radius: 5px;
+    height: 29px;
+    background-color: beige;
+    margin-bottom: 11px
+}
+#II{
+	    margin-left: -16px;
+    border: 0px;
+    border-radius: 5px;
+    height: 29px;
+    background-color: beige;
+    margin-bottom: 11px
+}

@@ -1,0 +1,87 @@
+<html>
+<head>
+<link href="styles/bootstrap.css" rel="stylesheet">
+     <link href="styles/main1.css" rel="stylesheet">
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+ <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/login_register.js"></script>
+</head>
+<body style="
+    background-image: url('images/bg6.jpg');
+">
+<button id="rb">SignUp</button>
+<div class="register">
+      <form action='register.php' method='POST' id="REGISTERFORM">
+      <table>
+        <tr>
+        <td>
+      <label id="EE2">First Name: </label>
+      </td>
+      <td>
+      <input type="text" name="firstname" id="RR"><br>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label id="EE3">Last Name: </label>
+      </td>
+      <td>
+      <input type="text" name="lastname" id="RR11"><br>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label id="EE4">Email: </label>
+      </td>
+      <td>
+      <input type="email" name="email" id="RR2"><br>
+      <span class="error">* <?php echo $cEmail;?></span>
+       <br><br>
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label id="EE5">Password </label>
+      </td>
+      <td>
+     <input type="password" name="password" id="RR3"><br>
+      <span class="error">* <?php echo $cPassword;?></span>
+       <br><br>
+      </td>
+      </tr>
+      <tr>
+      <td>
+       <label id="EE7">Confirm Password: </label>
+      </td>
+      <td>
+      <input type="password" name="confirmpassword" id="RRR"><br>
+      <span class="error">* <?php echo $ccPassword;?></span>
+       <br><br>
+      
+      </td>
+      </tr>
+      <tr>
+      <td>
+       <label id="EE6">Picture: </label>
+      </td>
+      <td>
+      <input type="file" name="picture" id="RR4"/><br>
+      </td>
+      </tr>
+      </table>
+      <p>
+
+      <input type='submit' name='submit' value='Register' id="ssr">
+      </p>
+
+      </form>
+      <a href="index.php">
+      <button id="rhmm">
+      <span class="glyphicon glyphicon-arrow-left" aria-hidden="true" id="la"></span>
+      Return to Homepage</button><a>
+    
+       </div>
+       </body>
+</html>
